@@ -34,9 +34,8 @@ pip install -r requirements.txt
 ## Dataset layout
 
 The script expects:
-dataset/
-├── images/              # 24 input images of the mug
-└── sparse/0/            # offline full-reconstruction COLMAP model
+dataset/images/              # 24 input images of the mug
+dataset/sparse/0/            # offline full-reconstruction COLMAP model
 # (provides GT poses and reference 3D points)
 
 The `sparse/0/` model is used as a pose oracle for candidate scoring and as
