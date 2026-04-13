@@ -24,7 +24,6 @@ https://github.com/colmap/pycolmap for platform-specific install notes.
 
 ```bash
 ## Setup
-
 ```bash
 python -m venv venv
 source venv/bin/activate          # Windows: venv\Scripts\activate
